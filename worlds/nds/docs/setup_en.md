@@ -10,7 +10,7 @@ Before starting. Make sure you have
 ## Installation
 - Download and install the Natural Disaster Survival [APWorld](https://github.com/KLanausse/MultiworldGG/releases/tag/Natural-Disaster-Survival)
 - Go to the [Natural Disaster Survival Archipelago Releases Page](https://github.com/KLanausse/RobloxAPs/releases/tag/Natural-Disaster-Survival) and download `Natural Disaster Survival.rbxl`, `ArchipelagoAssetPack.zip` and `NDSAssetPack.zip`
-- Extract the folder in both `ArchipelagoAssetPack.zip` and `NDSAssetPack.zip` and move it you the assetpacks folder (`OnlyRetroRobloxHere/assetpacks`)
+- Extract the folder in both `ArchipelagoAssetPack.zip` and `NDSAssetPack.zip` and move it to your assetpacks folder (`OnlyRetroRobloxHere/assetpacks`)
 
 ### Patching The Client
 - Download [rbx-apclientpp for 2013L-v2013.12.12.5](https://github.com/KLanausse/rbx-apclientpp/releases/download/v1.1/rbx-apclientpp-2013L-v2013.12.12.5.zip) and extract `rbx-apclientpp.studio.dll` and `RobloxStudioBeta.xdelta`.
