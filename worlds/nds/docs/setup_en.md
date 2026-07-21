@@ -3,7 +3,7 @@
 ## Prerequisites
 Before starting. Make sure you have
 - The x64 versions of [.NET 6.0 Runtime, Desktop Runtime, and the ASP.NET Runtime](https://builds.dotnet.microsoft.com/dotnet/Sdk/6.0.428/dotnet-sdk-6.0.428-win-x64.exe) installed for OnlyRetroRobloxHere
-- Microsoft Visual C++ [2005](https://www.microsoft.com/en-us/download/details.aspx?id=26347) and [2008](https://www.microsoft.com/en-US/download/details.aspx?id=26368) installed for running the older Roblox clients
+- The x86 versions Microsoft Visual C++ [2005](https://www.microsoft.com/en-us/download/details.aspx?id=26347) and [2008](https://www.microsoft.com/en-US/download/details.aspx?id=26368) installed for running the older Roblox clients
 - [OnlyRetroRobloxHere](https://onlyretrorobloxhere.itch.io/orrh) from Itch.io ([Setup Guide](https://orrh.thread.zone/wiki/article/setting+up+orrh)) and extracted
 - The patched version of [OnlyRetroRobloxHere.WebServer.dll](https://docs.google.com/document/d/1OMIBqNByCIjMw5h2s-JnG8AK-MjKfRhuCTQ3ki8tSUk/edit?tab=t.0) placed at the root of your OnlyRetroRobloxHere install. It should overwrite the old one
 - And a [xdelta patcher](https://www.romhacking.net/utilities/598/)
