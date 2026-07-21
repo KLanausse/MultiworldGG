@@ -9,7 +9,7 @@ Before starting. Make sure you have
 - And a [xdelta patcher](https://www.romhacking.net/utilities/598/)
 ## Installation
 - Download and install the Natural Disaster Survival [APWorld](https://github.com/KLanausse/MultiworldGG/releases/tag/Natural-Disaster-Survival)
-- Go to the [Natural Disaster Survival Archipelago Releases Page]() and download `Natural Disaster Survival.rbxl`, `ArchipelagoAssetPack.zip` and `NDSAssetPack.zip`
+- Go to the [Natural Disaster Survival Archipelago Releases Page](https://github.com/KLanausse/RobloxAPs/releases/tag/Natural-Disaster-Survival) and download `Natural Disaster Survival.rbxl`, `ArchipelagoAssetPack.zip` and `NDSAssetPack.zip`
 - Extract the folder in both `ArchipelagoAssetPack.zip` and `NDSAssetPack.zip` and move it you the assetpacks folder (`OnlyRetroRobloxHere/assetpacks`)
 
 ### Patching The Client
