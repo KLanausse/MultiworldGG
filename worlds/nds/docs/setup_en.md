@@ -8,7 +8,7 @@ Before starting. Make sure you have
 - The patched version of [OnlyRetroRobloxHere.WebServer.dll](https://docs.google.com/document/d/1OMIBqNByCIjMw5h2s-JnG8AK-MjKfRhuCTQ3ki8tSUk/edit?tab=t.0) placed at the root of your OnlyRetroRobloxHere install. It should overwrite the old one
 - And a [xdelta patcher](https://www.romhacking.net/utilities/598/)
 ## Installation
-- Download and install the Natural Disaster Survival [APWorld]()
+- Download and install the Natural Disaster Survival [APWorld](https://github.com/KLanausse/MultiworldGG/releases/tag/Natural-Disaster-Survival)
 - Go to the [Natural Disaster Survival Archipelago Releases Page]() and download `Natural Disaster Survival.rbxl`, `ArchipelagoAssetPack.zip` and `NDSAssetPack.zip`
 - Extract the folder in both `ArchipelagoAssetPack.zip` and `NDSAssetPack.zip` and move it you the assetpacks folder (`OnlyRetroRobloxHere/assetpacks`)
 
