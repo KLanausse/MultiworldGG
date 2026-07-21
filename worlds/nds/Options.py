@@ -2,6 +2,7 @@ from dataclasses import dataclass
 
 from Options import Choice, OptionGroup, PerGameCommonOptions, Range, Toggle, DeathLink, OptionGroup
 
+
 class ServerPercentage(Range):
     """
     What percent of the server needs to survive for the check to count.
@@ -12,6 +13,7 @@ class ServerPercentage(Range):
     range_start = 10
     range_end = 100
     default = 60
+
 
 class IntermissionDuration(Range):
     """
@@ -24,6 +26,7 @@ class IntermissionDuration(Range):
     range_end = 90
     default = 40
 
+
 class DisasterDuration(Range):
     """
     How long disasters last for. Doesn't affect Flash Flood
@@ -35,6 +38,7 @@ class DisasterDuration(Range):
     range_end = 180
     default = 90
 
+
 @dataclass
 class NaturalDisasterSurvivalOptions(PerGameCommonOptions):
     death_link: DeathLink
@@ -42,8 +46,9 @@ class NaturalDisasterSurvivalOptions(PerGameCommonOptions):
     disaster_duration: DisasterDuration
     intermission_duration: IntermissionDuration
 
-OPTION_GROUPS = [
-    OptionGroup("Game Options", [ServerPercentage, IntermissionDuration,DisasterDuration]),
+
+option_groups = [
+    OptionGroup("Game Options", [ServerPercentage, IntermissionDuration, DisasterDuration]),
     OptionGroup("Death Link", [DeathLink]),
 ]
 
@@ -52,6 +57,6 @@ option_presets = {
         "death_link": True,
         "server_percentage": 60,
         "disaster_duration": 90,
-        "intermission": 40
+        "intermission_duration": 40
     }
 }

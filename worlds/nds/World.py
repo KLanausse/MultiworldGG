@@ -1,16 +1,38 @@
 from collections.abc import Mapping
 from typing import Any
 
+from BaseClasses import Tutorial
 from worlds.AutoWorld import World, WebWorld
 
-
 from . import Locations, Items, Options, Regions
+
+
+class NaturalDisasterSurvivalWebWorld(WebWorld):
+    game = "Natural Disaster Survival"
+    theme = "grassFlowers"
+
+    setup_en = Tutorial(
+        "Multiworld Setup Guide",
+        "A guide for setting up Natural Disaster Survival for MultiWorld.",
+        "English",
+        "setup_en.md",
+        "setup/en",
+        ["Lanausse"],
+    )
+
+    tutorials = [setup_en]
+
+    # If we have option groups and/or option presets, we need to specify these here as well.
+    option_groups = Options.option_groups
+    options_presets = Options.option_presets
+
 
 class NaturalDisasterSurvivalWorld(World):
     """
     Placeholder.
     """
     game = "Natural Disaster Survival"
+    web = NaturalDisasterSurvivalWebWorld()
 
     item_name_to_id = Items.ITEM_TABLE
     location_name_to_id = Locations.LOCATION_TABLE
