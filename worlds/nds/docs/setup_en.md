@@ -44,3 +44,13 @@ OnlyRetroRobloxHere/
     └───Archipelago/
         └───Natural Disaster Survival.rbxl
 ```
+
+## Playing
+To play, open OnlyRetroRobloxHere and click on 2013L in the Clients list.
+Afterwards, go to the host tab and select Natural Disaster Survival under the Archipelago folder. Then click the big red **Host** button *(Feel free to check disable rendering before clicking Host if you wana save GPU resources)*.
+The server should now start up.
+
+To join, go back to the Play tab and change your Chat Style to just "Bubble" then click "Play This"!
+Once in-game, go to the Tracker Billboard and click the big green Connect button. Input your server, slot name and password and then click "Connect To The Multiworld". After a few seconds, you should connected and all set to go!
+
+
